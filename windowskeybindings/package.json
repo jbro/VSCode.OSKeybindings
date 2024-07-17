@@ -24,6 +24,11 @@
 	"contributes": {
 		"keybindings": [
 			{
+				"key": "escape escape",
+				"command": "workbench.action.exitZenMode",
+				"when": "inZenMode"
+			},
+			{
 				"key": "shift+escape",
 				"command": "closeReferenceSearch",
 				"when": "inReferenceSearchEditor && !config.editor.stablePeek"
